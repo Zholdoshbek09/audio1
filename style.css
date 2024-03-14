@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L2thdGV2NjQ0N19hYnN0cmFjdF9zb3VuZF93YXZlLV92b2ljZV9kaWdpdGFsX3dhdmVmb3JtX3ZvbHVtZV92b181MDgxMGFmYS0yNjNkLTQxNWItOGNjNS0yMDFhNTdkNDFjYWFfMS5qcGc.jpg);
+    display: flex;
+    justify-content: center;
+}
+.mus{
+    margin-top: 390px;
+    width: 200px;
+    height: 300px;
+    border: 6px solid purple;
+    border-radius: 50px;
+    background-image:  url(https://i.pinimg.com/originals/fe/35/45/fe3545469a6d65137b921656ae976c3e.gif);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 15px rgb(255, 2, 209);
+}
+
+.mus:hover{
+    cursor: pointer;
+    width: 300px;
+    transition: 1s;
+}
+
+audio:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
